@@ -1,0 +1,7 @@
+Added Pin To Net: NetName=GND Pin=D1-3
+Added Pin To Net: NetName=GND Pin=D2-3
+Added Pin To Net: NetName=GND Pin=D3-3
+Added Pin To Net: NetName=GND Pin=D4-3
+Added Pin To Net: NetName=GND Pin=D5-3
+Added Pin To Net: NetName=GND Pin=D6-3
+Added Room: Name=schematic_flashlight

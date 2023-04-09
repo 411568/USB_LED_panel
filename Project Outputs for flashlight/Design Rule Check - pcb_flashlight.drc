@@ -1,0 +1,101 @@
+Protel Design System Design Rule Check
+PCB File : C:\Users\krzys\Documents\temporary_docs\flashlight_pcb\flashlight\pcb_flashlight.PcbDoc
+Date     : 4/9/2023
+Time     : 12:52:49 PM
+
+Processing Rule : Clearance Constraint (Gap=10mil) (All),(All)
+   Violation between Clearance Constraint: (9.843mil < 10mil) Between Pad J1-1(4129.921mil,2467.52mil) on Top Layer And Pad J1-2(4155.512mil,2467.52mil) on Top Layer 
+   Violation between Clearance Constraint: (7.717mil < 10mil) Between Pad J1-2(4155.512mil,2467.52mil) on Top Layer And Track (4129.921mil,2467.52mil)(4129.921mil,2520.079mil) on Top Layer 
+   Violation between Clearance Constraint: (9.842mil < 10mil) Between Pad J1-4(4206.693mil,2467.52mil) on Top Layer And Pad J1-5(4232.283mil,2467.52mil) on Top Layer 
+   Violation between Clearance Constraint: (9.842mil < 10mil) Between Pad U1-1(3735mil,2475.197mil) on Top Layer And Pad U1-2(3735mil,2512.598mil) on Top Layer 
+   Violation between Clearance Constraint: (9.842mil < 10mil) Between Pad U1-4(3648.425mil,2550mil) on Top Layer And Pad U1-5(3648.425mil,2512.598mil) on Top Layer 
+   Violation between Clearance Constraint: (9.842mil < 10mil) Between Pad U1-5(3648.425mil,2512.598mil) on Top Layer And Pad U1-6(3648.425mil,2475.197mil) on Top Layer 
+Rule Violations :6
+
+Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
+Rule Violations :0
+
+Processing Rule : Un-Routed Net Constraint ( (All) )
+   Violation between Un-Routed Net Constraint: Via (2755.905mil,2460.63mil) from Top Layer to Bottom Layer Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Via (2755.905mil,4133.858mil) from Top Layer to Bottom Layer Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Via (4625.984mil,2460.63mil) from Top Layer to Bottom Layer Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Via (4625.984mil,4133.858mil) from Top Layer to Bottom Layer Dead Copper - Net Not Assigned.
+Rule Violations :4
+
+Processing Rule : Modified Polygon (Allow modified: No), (Allow shelved: No)
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=10mil) (Max=40mil) (Preferred=10mil) (All)
+Rule Violations :0
+
+Processing Rule : Power Plane Connect Rule(Direct Connect )(Expansion=20mil) (Conductor Width=10mil) (Air Gap=10mil) (Entries=4) (All)
+Rule Violations :0
+
+Processing Rule : Hole Size Constraint (Min=1mil) (Max=100mil) (All)
+   Violation between Hole Size Constraint: (118.11mil > 100mil) Via (2755.905mil,2460.63mil) from Top Layer to Bottom Layer Actual Hole Size = 118.11mil
+   Violation between Hole Size Constraint: (118.11mil > 100mil) Via (2755.905mil,4133.858mil) from Top Layer to Bottom Layer Actual Hole Size = 118.11mil
+   Violation between Hole Size Constraint: (118.11mil > 100mil) Via (4625.984mil,2460.63mil) from Top Layer to Bottom Layer Actual Hole Size = 118.11mil
+   Violation between Hole Size Constraint: (118.11mil > 100mil) Via (4625.984mil,4133.858mil) from Top Layer to Bottom Layer Actual Hole Size = 118.11mil
+Rule Violations :4
+
+Processing Rule : Hole To Hole Clearance (Gap=10mil) (All),(All)
+Rule Violations :0
+
+Processing Rule : Minimum Solder Mask Sliver (Gap=10mil) (All),(All)
+   Violation between Minimum Solder Mask Sliver Constraint: (3.811mil < 10mil) Between Pad C1-1(3622.441mil,2400mil) on Top Layer And Pad C1-2(3677.559mil,2400mil) on Top Layer [Top Solder] Mask Sliver [3.811mil]
+   Violation between Minimum Solder Mask Sliver Constraint: (3.811mil < 10mil) Between Pad C2-1(3848.425mil,2577.559mil) on Top Layer And Pad C2-2(3848.425mil,2522.441mil) on Top Layer [Top Solder] Mask Sliver [3.811mil]
+   Violation between Minimum Solder Mask Sliver Constraint: (3.811mil < 10mil) Between Pad C3-1(3125mil,2677.559mil) on Top Layer And Pad C3-2(3125mil,2622.441mil) on Top Layer [Top Solder] Mask Sliver [3.811mil]
+   Violation between Minimum Solder Mask Sliver Constraint: (3.811mil < 10mil) Between Pad C4-1(3225mil,2677.559mil) on Top Layer And Pad C4-2(3225mil,2622.441mil) on Top Layer [Top Solder] Mask Sliver [3.811mil]
+   Violation between Minimum Solder Mask Sliver Constraint: (1.843mil < 10mil) Between Pad J1-1(4129.921mil,2467.52mil) on Top Layer And Pad J1-2(4155.512mil,2467.52mil) on Top Layer [Top Solder] Mask Sliver [1.843mil]
+   Violation between Minimum Solder Mask Sliver Constraint: (1.842mil < 10mil) Between Pad J1-2(4155.512mil,2467.52mil) on Top Layer And Pad J1-3(4181.102mil,2467.52mil) on Top Layer [Top Solder] Mask Sliver [1.842mil]
+   Violation between Minimum Solder Mask Sliver Constraint: (1.843mil < 10mil) Between Pad J1-3(4181.102mil,2467.52mil) on Top Layer And Pad J1-4(4206.693mil,2467.52mil) on Top Layer [Top Solder] Mask Sliver [1.843mil]
+   Violation between Minimum Solder Mask Sliver Constraint: (1.842mil < 10mil) Between Pad J1-4(4206.693mil,2467.52mil) on Top Layer And Pad J1-5(4232.283mil,2467.52mil) on Top Layer [Top Solder] Mask Sliver [1.842mil]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.268mil < 10mil) Between Pad R1-2(3250mil,3446.85mil) on Top Layer And Pad R4-2(3250mil,3403.15mil) on Top Layer [Top Solder] Mask Sliver [0.268mil]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.268mil < 10mil) Between Pad R2-2(3950mil,3446.85mil) on Top Layer And Pad R5-2(3950mil,3403.15mil) on Top Layer [Top Solder] Mask Sliver [0.268mil]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.268mil < 10mil) Between Pad R3-2(4150mil,3446.85mil) on Top Layer And Pad R6-2(4150mil,3403.15mil) on Top Layer [Top Solder] Mask Sliver [0.268mil]
+   Violation between Minimum Solder Mask Sliver Constraint: (9.842mil < 10mil) Between Pad U1-1(3735mil,2475.197mil) on Top Layer And Pad U1-2(3735mil,2512.598mil) on Top Layer [Top Solder] Mask Sliver [9.842mil]
+   Violation between Minimum Solder Mask Sliver Constraint: (9.843mil < 10mil) Between Pad U1-2(3735mil,2512.598mil) on Top Layer And Pad U1-3(3735mil,2550mil) on Top Layer [Top Solder] Mask Sliver [9.843mil]
+   Violation between Minimum Solder Mask Sliver Constraint: (9.843mil < 10mil) Between Pad U1-4(3648.425mil,2550mil) on Top Layer And Pad U1-5(3648.425mil,2512.598mil) on Top Layer [Top Solder] Mask Sliver [9.843mil]
+   Violation between Minimum Solder Mask Sliver Constraint: (9.842mil < 10mil) Between Pad U1-5(3648.425mil,2512.598mil) on Top Layer And Pad U1-6(3648.425mil,2475.197mil) on Top Layer [Top Solder] Mask Sliver [9.842mil]
+Rule Violations :15
+
+Processing Rule : Silk To Solder Mask (Clearance=10mil) (IsPad),(All)
+   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 10mil) Between Pad P?-1(4200mil,2600mil) on Multi-Layer And Text "J1" (4110.013mil,2570.01mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [0mil]
+Rule Violations :1
+
+Processing Rule : Silk to Silk (Clearance=10mil) (All),(All)
+Rule Violations :0
+
+Processing Rule : Net Antennae (Tolerance=0mil) (All)
+Rule Violations :0
+
+Processing Rule : Room schematic_flashlight (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('schematic_flashlight'))
+   Violation between Room Definition: Between Component J1-1981568-1 (4181.102mil,2467.52mil) on Top Layer And Room schematic_flashlight (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('schematic_flashlight')) 
+   Violation between Room Definition: Between Room schematic_flashlight (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('schematic_flashlight')) And Small Component P?-Header 2H (4200mil,2600mil) on Bottom Layer 
+   Violation between Room Definition: Between Room schematic_flashlight (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('schematic_flashlight')) And SMT Small Component C1-100nF (3650mil,2400mil) on Top Layer 
+   Violation between Room Definition: Between Room schematic_flashlight (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('schematic_flashlight')) And SMT Small Component C2-10uF (3848.425mil,2550mil) on Top Layer 
+   Violation between Room Definition: Between Room schematic_flashlight (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('schematic_flashlight')) And SMT Small Component C3-22uF (3125mil,2650mil) on Top Layer 
+   Violation between Room Definition: Between Room schematic_flashlight (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('schematic_flashlight')) And SMT Small Component C4-22uF (3225mil,2650mil) on Top Layer 
+   Violation between Room Definition: Between Room schematic_flashlight (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('schematic_flashlight')) And SMT Small Component D1-SML-LXL8047USBCTR3 (3006.693mil,3805.905mil) on Top Layer 
+   Violation between Room Definition: Between Room schematic_flashlight (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('schematic_flashlight')) And SMT Small Component D2-SML-LXL8047USBCTR3 (3700mil,3800mil) on Top Layer 
+   Violation between Room Definition: Between Room schematic_flashlight (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('schematic_flashlight')) And SMT Small Component D3-SML-LXL8047USBCTR3 (4406.693mil,3805.905mil) on Top Layer 
+   Violation between Room Definition: Between Room schematic_flashlight (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('schematic_flashlight')) And SMT Small Component D4-SML-LXL8047USBCTR3 (3000mil,3050mil) on Top Layer 
+   Violation between Room Definition: Between Room schematic_flashlight (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('schematic_flashlight')) And SMT Small Component D5-SML-LXL8047USBCTR3 (3700mil,3050mil) on Top Layer 
+   Violation between Room Definition: Between Room schematic_flashlight (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('schematic_flashlight')) And SMT Small Component D6-SML-LXL8047USBCTR3 (4400mil,3050mil) on Top Layer 
+   Violation between Room Definition: Between Room schematic_flashlight (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('schematic_flashlight')) And SMT Small Component L1-4.7uH (3444.882mil,2559.055mil) on Top Layer 
+   Violation between Room Definition: Between Room schematic_flashlight (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('schematic_flashlight')) And SMT Small Component R1-1Ohm (3250mil,3500mil) on Top Layer 
+   Violation between Room Definition: Between Room schematic_flashlight (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('schematic_flashlight')) And SMT Small Component R2-1Ohm (3950mil,3500mil) on Top Layer 
+   Violation between Room Definition: Between Room schematic_flashlight (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('schematic_flashlight')) And SMT Small Component R3-1Ohm (4150mil,3500mil) on Top Layer 
+   Violation between Room Definition: Between Room schematic_flashlight (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('schematic_flashlight')) And SMT Small Component R4-1Ohm (3250mil,3350mil) on Top Layer 
+   Violation between Room Definition: Between Room schematic_flashlight (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('schematic_flashlight')) And SMT Small Component R5-1Ohm (3950mil,3350mil) on Top Layer 
+   Violation between Room Definition: Between Room schematic_flashlight (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('schematic_flashlight')) And SMT Small Component R6-1Ohm (4150mil,3350mil) on Top Layer 
+   Violation between Room Definition: Between Room schematic_flashlight (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('schematic_flashlight')) And SOIC Component U1-AP63203WU-7 (3691.713mil,2512.598mil) on Top Layer 
+Rule Violations :20
+
+Processing Rule : Height Constraint (Min=0mil) (Max=1000mil) (Prefered=500mil) (All)
+Rule Violations :0
+
+
+Violations Detected : 50
+Waived Violations : 0
+Time Elapsed        : 00:00:01
